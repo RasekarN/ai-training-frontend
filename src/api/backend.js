@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:8000",
+  baseURL: "https://ai-training-backend-c67c.onrender.com",
 });
 
 export const getSignal = async (payload) => {
